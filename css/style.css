@@ -8,3 +8,8 @@
     --najjasniejszy-szary:#A5A5A5;
     --biały:#FFFFFF;
 }
+
+.container {
+    margin:0 auto;
+    width:1352px;
+}
