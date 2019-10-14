@@ -593,3 +593,46 @@ article.section2__article:nth-child(3) div.section2__article-content::after{
     align-self: flex-end;
 }
 
+
+/*tu zaczyna się footer..........................................................................................
+.....................................................................................................................
+...................................................................................................................*/
+
+.footer{
+    position:relative;
+    top:200px;
+    width:100%;
+    background-color:#F7F7F7 ;
+    box-shadow: 0px -5px 40px #00000029;
+}
+
+.footer__content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color:var(--niebieski);
+    padding-top:20px;
+}
+
+.footer__logo .copyright {
+    font-size:11px;
+    color: var(--najjasniejszy-szary);
+    padding-top:15px;
+    padding-bottom: 20px;
+}
+
+.footer__links {
+    display:flex;
+}
+
+.Facebook-link {
+    margin-left:20px;
+}
+
