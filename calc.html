@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztat-kalkulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="calc.js" ></script>
+</head>
+<body>
+<div class="calc-box">
+<header class="calc-header">
+    <h1 class="calc-title">Calculate how much you'll pay</h1>
+</header>
+    <div class="calc-content">
+        <section class="calc-form">
+            <form action="" class="form-content">
+                    <input class="product" type="number" placeholder="Products quantity">
+                    <input class="product" type="number" placeholder="Estimated order in months">
+                    <div class="dropdown">
+                        <button class="drop-btn">Dropdown
+                        </button>
+                        <div class="dropdown-content display-none">
+                            <a data-price="0" href="#">Basic</a>
+                            <a data-price="25" href="#">Professional</a>
+                            <a  data-price="60" href="#">Premium</a>
+                        </div>
+                    </div>
+                <div class="checkbox1">
+                    <input  type="checkbox" name="checkbox"  id="checkbox_2"/>
+                    <label for="checkbox_2">
+                       Accounting
+                    </label>
+                </div>
+                <div class="checkbox2">
+                    <input  type="checkbox" name="checkbox"  id="checkbox_3"/>
+                    <label for="checkbox_3">
+                        Rental of payment terminal
+                    </label>
+                </div>
+            </form>
+        </section>
+        <section class="calc-result">
+            <ul class="result-content">
+                <li class="result-items">
+                    <ul class="result-item result-item-products display-none">
+                        <li class="item-thing">Products</li>
+                        <li class="item-thing"></li>
+                        <li class="item-thing item-thing-big"></li>
+                    </ul>
+                </li>
+                <li class="result-items">
+                    <ul class="result-item result-item-order display-none">
+                        <li class="item-thing">Orders</li>
+                        <li class="item-thing"></li>
+                        <li class="item-thing item-thing-big"></li>
+                    </ul>
+                </li>
+                <li class="result-items">
+                    <ul class="result-item result-item-package display-none">
+                        <li class="item-thing">Package</li>
+                        <li class="item-thing"></li>
+                        <li class="item-thing item-thing-big"></li>
+                    </ul>
+                </li>
+                <li class="result-items">
+                    <ul class="result-item result-item-accounting display-none">
+                        <li class="item-thing">Accounting</li>
+                        <li class="item-thing"></li>
+                        <li class="item-thing item-thing-big">$35</li>
+                    </ul>
+                </li>
+                <li class="result-items">
+                    <ul class="result-item result-item-terminal display-none">
+                        <li class="item-thing">Terminal</li>
+                        <li class="item-thing"></li>
+                        <li class="item-thing item-thing-big">$5</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="total">
+                <li class="total-text">Total</li>
+                <li class="total-price"></li>
+            </ul>
+        </section>
+    </div>
+</div>
+</body>
+</html>
